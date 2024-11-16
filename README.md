@@ -1,5 +1,5 @@
+# DATE : 28.10.2024
 # Ex.No: 11 Develop a application to add animations to ImageView,Move,blink,fade,clockwise,zoom,slide operations are perform in android studio.
-
 
 ## AIM:
 
@@ -137,8 +137,6 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.view.View;
-
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -176,9 +174,6 @@ public class MainActivity extends AppCompatActivity {
                         R.anim.blink);
         image.startAnimation(animation1);
     }
-
-
-
     public void slide(View view){
         ImageView image = (ImageView)findViewById(R.id.imageView);
         Animation animation1 =
